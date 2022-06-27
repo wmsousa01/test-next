@@ -1,8 +1,13 @@
-// faq.js
-import FAQScreen from '../src/screens/FAQScreen';
+import Head from 'next/head'
+import Link from '../src/components/Link';
 
-export default FAQScreen; 
+// SSG - Static Site Generation
+// SSR - Server Side Rendering
+// ISG - Incremental Static Generation
 
+// export async function getServerSideProps() {
+//     console.log('Em modo DEV, sempre roda! A cada acesso')
+//     console.log('Rodando a cada acesso que você recebe')
 export async function getStaticProps() {
     console.log('Em modo DEV, sempre roda! A cada acesso')
     console.log('Roda SOMENTE em build time')
@@ -21,7 +26,7 @@ export async function getStaticProps() {
           faq,
       },
     };
-}   
+}  
 
 export default function FAQPage({ faq }) {
     console.log('Isso roda no servidor???')
