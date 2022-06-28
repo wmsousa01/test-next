@@ -4,8 +4,8 @@ import Link from '../../components/Link'
 import { theme } from '../../theme/theme';
 import { Image, Box, Text, Icon, Input, Button } from '../../theme/components';
 
-const LOGO_ALURA_URL = '/images/alura-logo.svg';
-const SIDE_IMAGE_URL = '/images/alura-cases.png'
+const LOGO_ALURA_URL = '/images/logo.png';
+const SIDE_IMAGE_URL = '/images/sousas-cases.png'
 
 function SideImage() {
   return (
@@ -86,7 +86,7 @@ function SideImage() {
               },
             }}
             src={SIDE_IMAGE_URL}
-            alt="Treinamento com a roberta arcoverde no alura cases, falando sobre o stackoverflow"
+            alt="Sua próxima Agência de Marketing Digital"
           />
         </Box>
       </Box>
@@ -98,7 +98,7 @@ export default function HomeScreen() {
   return (
     <Box>
       <Head>
-        <title>Home - Alura Cases Campanha</title>
+        <title>Home - Sousas Midia</title>
       </Head>
       <Box
         as="main"
@@ -154,7 +154,7 @@ export default function HomeScreen() {
                     height: theme.space.x11,
                   }}
                   src={LOGO_ALURA_URL}
-                  alt="Logo Alura"
+                  alt="Logo Sousas"
                 />
               </Box>
               <Box
@@ -232,7 +232,7 @@ export default function HomeScreen() {
                       color: theme.colors.neutral["900"],
                     }}
                   >
-                    Alura Cases
+                    Sobre nós
                   </Text>
                   <Text
                     as="p"
@@ -242,7 +242,7 @@ export default function HomeScreen() {
                       marginTop: theme.space.x6,
                     }}
                   >
-                    Aqui você vai ter acesso a discussões avançadas: as principais decisões sobre arquitetura e design de sistemas. Aprenda através das descobertas que as principais empresas de tecnologia enfrentam!
+                    Somos uma startup com o propósito em melhorar processos de marketing e vendas!
                   </Text>
                   <Text
                     as="p"
@@ -252,7 +252,7 @@ export default function HomeScreen() {
                       marginTop: theme.space.x6,
                     }}
                   >
-                    Quer testar antes de todo mundo?
+                    Podemos conversar?
                   </Text>
                 </Box>
                 <Box

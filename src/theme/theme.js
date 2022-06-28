@@ -86,7 +86,7 @@ export const theme = {
     },
     colors: {
         primary: {
-            "050": "#EAE2F8",
+            "050": "#8900FF",
             "100": "#CFBCF2",
             "200": "#A081D9",
             "300": "#8662C7",
@@ -113,7 +113,7 @@ export const theme = {
         }
     },
     typography: {
-        fontFamily: 'Open Sans',
+        fontFamily: 'Montserrat',
         variants: {
             display1: {
                 fontSize: {
